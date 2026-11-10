@@ -42,4 +42,18 @@
 
 <body>
 <html>
-   
+  <!-- Special Offers Section (Feature Branch Component) -->
+<section style="background-color: burlywood; padding: 15px; margin: 20px auto; width: 80%; border-radius: 8px;">
+    <h2>🔥 Today's Special Offers</h2>
+    <p>Get 20% off on all Large Expressos every Friday!</p>
+    <button onclick="claimOffer()" style="background-color: lightblue; color: black; padding: 8px 16px; cursor: pointer; border: 1px solid black;">
+        Claim Offer
+    </button>
+</section>
+
+<script>
+    function claimOffer() {
+        console.log("Special offer claimed by user.");
+        window.alert("Offer Claimed! Show this screen at the counter for 20% off.");
+    }
+</script>
